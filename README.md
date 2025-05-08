@@ -1,4 +1,6 @@
 # gem5-cache-replacement
+How to add a new cache replacement policy in gem5
+
 
 1. Clone ``gem5`` from [https://github.com/gem5/gem5](https://github.com/gem5/gem5)
 2. Place ``lin_rp.cc``, ``lin_rp.hh``, ``log_rp.cc``, ``log_rp.hh`` in ``src/mem/cache/replacement_policies/
