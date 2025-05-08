@@ -40,7 +40,7 @@ from caches import *
 - In ``caches.py`` added ``replacement_policy=LogRP()`` under ``tgts_per_mshr`` in ``L1Cache`` and ``L2Cache`` classes
 7. If you edit any of the replacement policies, do
   ```
-scond build/X86/gem5.opt -j64
+scons build/X86/gem5.opt -j64
   ```
 before running tests
 
